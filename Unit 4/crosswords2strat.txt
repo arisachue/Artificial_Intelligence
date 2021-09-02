@@ -1,0 +1,11 @@
+find most constraint word and start from there
+
+mr eckel's crowwords 2 strategy 
+-finding the most constrained
+-back track when possible
+-keep track of word spaces
+-set of all words that can go in each space (keep track of all possibilities)
+-copy all data structures to send to recursive call
+-place letter, update the sets
+-loop over the blank spaces in that word and remove unpossible letters with added letter
+-run possibilities every call
