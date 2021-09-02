@@ -1,0 +1,4 @@
+pass an argument in minmax minstep that has depth
+subtract 1 from depth each time
+if depth == 0 -> base case, return the score of the board
+for loop that increments the depth each time
